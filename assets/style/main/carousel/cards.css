@@ -1,0 +1,56 @@
+.carousel-title {
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 350px;
+}
+.item .card-image {
+    height: 400px;
+    width: 100%;
+    
+}
+.item .card-image > img {
+    height: 100%;
+    object-fit: cover;
+}
+.item .card-title {
+    font-size: 1.75rem;
+    margin: 1rem;
+}
+.item > p {
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+.card-color--petrol {
+    border: 1px solid var(--petrol-color);
+}
+.petrol > span {
+    color: #ff6600;
+}
+.card-color--eletric {
+    border: 1px solid var(--eletric-color);
+}
+.eletric > span {
+    color: var(--eletric-color);
+}
+.card-color--hybrid {
+    border: 1px solid var(--hybrid-color);
+}
+.hybrid > span {
+    color: var(--hybrid-color);
+}
+
+.card-button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.card-button {
+    font-size: 1.25rem;
+    width: 45%;
+}

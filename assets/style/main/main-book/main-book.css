@@ -1,0 +1,36 @@
+.main-car {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0, 0, 0, 0.945)), right / contain no-repeat url("../../../images/main-cars/ferrari_puro_sangue.jpg");
+    background-color: #000;
+    border: .25px solid var(--emphasis-color);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    
+}
+.main-car .container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    width: 35%;
+}
+
+.main-car .container .title {
+    font-size: 6rem;
+    margin: 0;
+    
+}
+.main-car .container .description {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-align: left;
+}
+.main-car .container .title span {
+    color: #ffd900;
+    font-size: 6.5rem;
+}
+.main-car .main-button {
+    display: flex;
+    gap: 1.5rem;
+    
+}

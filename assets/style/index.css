@@ -1,0 +1,47 @@
+:root {
+    --color-i: #E50914;
+    --color-ii: #141414;
+    --global-font-color: #FFFFFF;
+    --emphasis-color: #ffd900;
+    --petrol-color: #ff6600;
+    --eletric-color: #00aaff;
+    --hybrid-color: #11ff00;
+    font-size: 62.5%;
+}
+html, a, ul {
+    background-color: var(--color-ii);
+    color: var(--global-font-color);
+    font-family: "Roboto", Helvetica;
+    font-weight: 300;
+    list-style: none;
+    text-decoration: none;
+}
+button {
+    background: var(--color-i);
+    border: 1px solid var(--color-ii);
+    color: var(--global-font-color);
+    cursor: pointer;
+    font-size: 1.75rem;
+    outline: none;
+    padding: 1rem 3rem;
+    transition: background .4s linear, color;
+}
+
+button:hover {
+    background: var(--color-ii);
+    border: 1px solid var(--color-i);
+    color: var(--color-i);
+}
+.button-icon {
+    margin-right: .5rem;
+}
+
+footer {
+    margin: 1rem;
+    text-align: center;
+}
+footer p {
+    font-size: 1.5rem;
+    letter-spacing: .75rem;
+    padding: 1rem;
+}
